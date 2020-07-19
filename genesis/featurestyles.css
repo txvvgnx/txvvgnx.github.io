@@ -1,0 +1,136 @@
+@font-face{
+    font-family: boldgordita;
+    src: url(fonts/gbold.otf) format("opentype");
+}
+
+@font-face{
+    font-family: medgordita;
+    src: url(fonts/gmed.otf) format("opentype");
+}
+
+body{
+    margin:0;
+}
+
+.featurespage {
+    height:100vh;
+    display:flex;
+    flex-flow:column;
+}
+
+.page{
+    display:flex;
+    flex-flow: column;
+    height: 100vh;
+}
+
+/* css styles for top navigation bar */
+.topnav {
+    background-color:#0d0a4f;
+    overflow:hidden;
+}
+
+.topnav a{
+    float: left;
+    color: white;
+    text-align:center;
+    padding:24px 12px;
+    font-family: medgordita;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.features{
+    margin-left: 6px;
+}
+
+.logo {
+    margin-left:10px;
+    text-indent: -99999999px;
+    width: 63px;
+    background-image: url("images/logo.png");
+    background-size:83px;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-color:#0d0a4f;
+}
+
+.pricing:hover{
+    background-color:#4687ff;
+}
+
+.about:hover{
+    background-color:#4687ff;
+}
+
+.features:hover{
+    background-color:#4687ff;
+}
+
+.loginSubmit {
+    background-color: #27be56;
+    font-family:medgordita;
+    float:right;
+    margin-top:15px;
+    margin-right: 18px;
+    padding:8px 24px 8px 24px;
+    color:white;
+    border:none;
+    border-radius: 4px;
+}
+
+/*main content*/
+.hero-container{
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.hero-cat {
+    width:33%;
+}
+
+.category-left{
+    width: 33%;
+    border-right: 1px solid rgba(34,46,58,.1);
+}
+
+.category-right{
+    width: 33%;
+    border-left: 1px solid rgba(34,46,58,.1);
+}
+
+.content-container {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.shortener {
+    padding-left:100px;
+    padding-right:100px;
+}
+
+svg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    text-align: center;
+    font-family: medgordita;
+    font-size: smaller;
+    overflow-wrap: break-word;
+}
+
+h2 {
+    text-align: center;
+    font-family: boldgordita;
+}
+
+
+
+
+
