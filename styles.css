@@ -1,0 +1,92 @@
+@font-face {
+    font-family: sfbold;
+    src: url(fonts/SF-Pro-Display-Semibold.otf) format("opentype");
+}
+
+@font-face {
+    font-family: sfreg;
+    src: url(fonts/SF-Pro-Display-Regular.otf) format("opentype");
+}
+body {
+    margin: 0;
+}
+.container {
+    position: fixed;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: row;
+    text-align: center;
+    background-color: #333;
+}
+
+#particles-js {
+    width: 25%;
+    height: 100%;
+    background-color: #333;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+#particles-js2 {
+    width: 25%;
+    height: 100%;
+    background-color: #333;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+#particles-js3 {
+    height: 25%;
+    background-color: #333;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+#particles-js4 {
+    height: 25%;
+    background-color: #333;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.mid-container {
+    font-family: sfbold;
+    color: white;
+    font-size: 24px;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+
+}
+
+.divider-2 {
+    height: 50%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    font-family: sfreg;
+    border-style: hidden;
+    border-radius: 4px;
+    padding: 12px 12px 12px 12px;
+    background: linear-gradient(#51a9ee, #147bcd);
+    color: white;
+    font-size: 18px;
+}
