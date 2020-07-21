@@ -70,7 +70,6 @@ body {
     height: 100%;
     display: flex;
     flex-flow: column;
-
 }
 
 .divider-2 {
@@ -79,6 +78,11 @@ body {
     flex-flow: column;
     justify-content: center;
     align-items: center;
+}
+
+.divider-3 h1 {
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 button {
