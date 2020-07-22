@@ -93,4 +93,5 @@ button {
     background: linear-gradient(#51a9ee, #147bcd);
     color: white;
     font-size: 18px;
+    cursor: pointer;
 }
