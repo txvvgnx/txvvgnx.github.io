@@ -1,0 +1,207 @@
+@font-face {
+    font-family: boldgordita;
+    src: url(../fonts/gbold.otf) format("opentype");
+}
+
+@font-face {
+    font-family: medgordita;
+    src: url(../fonts/gmed.otf) format("opentype");
+}
+
+@font-face {
+    font-family: sfbold;
+    src: url(../fonts/SF-Pro-Display-Semibold.otf) format("opentype");
+}
+
+@font-face {
+    font-family: sfreg;
+    src: url(../fonts/SF-Pro-Display-Regular.otf) format("opentype");
+}
+
+/* css styles affecting the whole body */
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column;
+    box-sizing: border-box;
+}
+
+/* css styles for top navigation bar */
+.topnav {
+    background-color:#0d0a4f;
+    overflow:hidden;
+    padding: 6px 10px 6px 10px;
+    display: flex;
+    align-items: center;
+    box-sizing: content-box;
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+}
+
+.topnav a {
+    color: white;
+    padding-top: 24px;
+    padding-right: 12px;
+    padding-left: 12px;
+    padding-bottom: 24px;
+    text-align:center;
+    font-family: medgordita;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.features{
+    margin-left: 12px;
+}
+
+.logo {
+    margin-left:10px;
+    text-indent: -99999999px;
+    width: 63px;
+    background-image: url("../images/logo.png");
+    background-size:83px;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-color:#0d0a4f;
+}
+
+.divider {
+    margin-left: 24px;
+}
+
+.linediv {
+    background-color: #b9babd;
+    height: 32px;
+    width: 1px;
+}
+
+.bluehov:hover {
+    color: #27be56;
+}
+
+.loginSubmit {
+    background-color: #27be56;
+    font-family:medgordita;
+    margin-top:15px;
+    margin-bottom: 15px;
+    margin-right: 18px;
+    margin-left: auto;
+    padding:8px 24px 8px 24px;
+    color:white;
+    border:none;
+    border-radius: 4px;
+}
+
+/* css styles hero */
+.hero {
+    padding-top: 128px;
+    padding-bottom: 128px;
+    box-sizing: content-box;
+    background-color: #0d0a4f;
+    color: white;
+}
+
+.hero-content {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+.hero-svg {
+    fill: white;
+    margin: 24px 24px 24px 24px;
+}
+
+.content-1 {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    text-align: center;
+    margin-right: 10vh;
+}
+
+.content-1 h1 {
+    font-family: sfbold;
+    font-size: 72px;
+    margin-bottom: 0;
+}
+
+.content-1 h3 {
+    font-family: medgordita;
+    font-size: 24px;
+    margin-top: 4px;
+}
+
+.hero-img {
+    display: flex;
+    flex-flow: column;
+    margin-left: 10vh;
+}
+
+.hero-img-row-1 {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+}
+
+.hero-img-row-2 {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+/* css styles wh */
+.what-is-vpn {
+    padding-top: 256px;
+    padding-bottom: 256px;
+    display: flex;
+    flex-flow: row;
+}
+
+.content {
+    display: flex;
+    flex-flow: column;
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+}
+
+.p-container {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.content h1 {
+    font-family: sfbold;
+    font-size: 32px;
+    margin-bottom: 0;
+}
+
+.content p {
+    font-family: sfreg;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.w-image {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/* footaaaa */
+.footer {
+    background-color: #333;
+    color: white;
+    font-family: sfreg;
+    font-size: small;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.footer p {
+    margin-left: 20px;
+}
