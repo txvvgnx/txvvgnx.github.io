@@ -155,7 +155,7 @@ html {
     padding-bottom: 128px;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 90%;
 }
 
 svg {
@@ -165,7 +165,7 @@ svg {
 }
 
 .feature-category {
-    width: 22%;
+    width: 23%;
     border-radius: 16px;
     border: 1px solid rgb(232, 232, 233);
     padding-top: 48px;
@@ -176,7 +176,7 @@ svg {
 }
 
 .feature-category-2 {
-    width: 22%;
+    width: 23%;
     border-radius: 16px;
     border: 1px solid rgb(232, 232, 233);
     padding-top: 48px;
