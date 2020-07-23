@@ -165,13 +165,14 @@ svg {
 }
 
 .feature-category {
-    width: 23%;
+    width: 20%;
     border-radius: 16px;
     border: 1px solid rgb(232, 232, 233);
     padding-top: 48px;
     padding-bottom: 48px;
     margin-left: 6px;
     margin-right: 6px;
+    margin-top: 12px;
 }
 
 .feature-category-2 {
