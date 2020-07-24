@@ -149,8 +149,8 @@ html {
 
 /*hero-features*/
 #hero-features {
-    padding-top: 64px;
-    padding-bottom: 64px;
+    padding-top: 128px;
+    padding-bottom: 128px;
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
