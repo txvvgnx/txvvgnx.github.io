@@ -1,4 +1,4 @@
 var btn = document.getElementById("btn");
 btn.onclick = () => {
-  window.location='https://www.youtube.com/watch?v=Tt7bzxurJ1I';
+  window.location='https://txvvgnx.github.io/genesis/index.html';
 };
