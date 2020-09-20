@@ -81,6 +81,10 @@ html {
     width: 1px;
 }
 
+.bluehov {
+    transition: 0.7s;
+}
+
 .bluehov:hover {
     color: #27be56;
 }
