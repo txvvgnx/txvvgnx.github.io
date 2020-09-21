@@ -15,7 +15,17 @@
         </div>
         <a class="bluehov features" href="features.html">Features</a>
         <a class="bluehov pricing" href="pricing.html">Pricing</a>
-        <button class="loginSubmit">Login</button>
+        <button class="loginSubmit" id="ls">Login</button>
+    </div>
+    
+    <div id="id01" class="mdl">
+        <form class="modal-content zoom" id="loginform">
+            <input type="text" placeholder="Username" id="usernameField" required>
+            <input type="password" placeholder="Password" id="passwordField" required>
+            <button type="submit">Login</button>
+            <input type="checkbox" checked="checked" id="rememberMe">
+            <label for="rememberMe">Remember Me</label>
+        </form>
     </div>
     
     <div class="hero">
@@ -68,5 +78,7 @@
     <div class="footer">
         <p>Lolcat.</p>
     </div>
+    
+    <script src="scripts/main.js"></script>
 </body>
 </html>
