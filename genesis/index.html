@@ -19,13 +19,17 @@
     </div>
     
     <div id="id01" class="mdl">
-        <form class="modal-content zoom" id="loginform">
-            <input type="text" placeholder="Username" id="usernameField" required>
-            <input type="password" placeholder="Password" id="passwordField" required>
-            <button type="submit">Login</button>
-            <input type="checkbox" checked="checked" id="rememberMe">
-            <label for="rememberMe">Remember Me</label>
-        </form>
+        <div class="modal-content zoom" id="modalcontainer">
+            <form id="loginform">                
+                <input type="text" placeholder="Username" id="usernameField" required>
+                <input type="password" placeholder="Password" id="passwordField" required>
+                <button class="sbbutton" id="submitButton" type="submit">Login</button>
+                <div class="rbcontainer">
+                    <input type="checkbox" id="rememberMe">
+                    <label class="rbslightmargin" for="rememberMe">Remember Me</label>
+                </div>
+            </form>
+        </div>
     </div>
     
     <div class="hero">
