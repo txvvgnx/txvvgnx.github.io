@@ -15,7 +15,7 @@ window.onclick = async function(e) {
         modal.style.display = 'none';
         document.body.style.overflow = 'auto';
         document.body.scroll = 'yes';
-        modalContent.classList.remove('unzoom');
+        modalContainer.classList.remove('unzoom');
         modalContent.classList.remove('unzoom');
     }
 }
