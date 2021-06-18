@@ -1,0 +1,91 @@
+@font-face {
+	font-family: 'SF-Regular';
+	src: url(fonts/sf-reg.otf);
+}
+
+@font-face {
+	font-family: 'SF-SBold';
+	src: url(fonts/sf-semibold.otf);
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.main-window {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	background-color: rgb(50, 50, 50);
+}
+
+.title {
+	margin: 0;
+	display: inline;
+	color: rgb(131, 226, 218);
+	font-family: 'SF-SBold';
+	font-size: 64px;
+}
+
+.blue {
+	color: rgb(114, 189, 220);
+}
+
+.gamesense {
+    color: #6cc312;
+}
+
+.onetap {
+    color: #faa618;
+}
+
+.neverlose {
+    color: #0095b9;
+}
+
+.subtitle-main {
+    margin-top: 4px;
+}
+
+.subtitle {
+    margin: 0;
+    display: inline;
+    color: white;
+    font-family: 'SF-Regular';
+    font-size: 32px;
+}
+
+.buttons-main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 16px;
+}
+
+.buttontext {
+    font-family: SF-Regular;
+    font-size: 16px;
+    padding: 0;
+    margin: 0px 0px 0px 8px;
+    color: white;
+}
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(50, 50, 50);
+    border: 1px solid rgb(50, 50, 50);
+    border-radius: 4px;
+    outline: none;
+    padding: 8px 12px 8px 12px;
+    margin-left: 3px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    border: 1px solid white;
+}
